@@ -446,7 +446,7 @@
       <h1 class="logo">Docs <span class="logo__thin"></span></h1>
       <ul class="menu">
         <div class="menu__item toggle"><span></span></div>
-        <li class="menu__item"><a href="https://github.com/BOTCAHX" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+        <li class="menu__item"><a href="https://github.com/MyDapitt" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
         <li class="menu__item"><a href="index.html" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
       </ul>
     </nav>
@@ -477,7 +477,7 @@
           bodyForm = new FormData();
           bodyForm.append("file", buffer, "file." + ext);
         
-          let response = await fetch("https://baseurl.com/api/upload.php", {
+          let response = await fetch("https://f.curvee.eu.org/upload", {
             method: "post",
             body: bodyForm,
           });
@@ -594,7 +594,7 @@
           let { ext } = await fromBuffer(buffer);
           let bodyForm = new FormData();
           bodyForm.append("file", buffer, "file." + ext);
-          let res = await fetch("https://baseurl.com/api/upload.php", {
+          let res = await fetch("https://f.curvee.eu.org/upload", {
             method: "post",
             body: bodyForm,
           });
@@ -612,7 +612,7 @@
         </section>
       </article>
     </div>
- <footer class="footer">© Copyright<a href="https://github.com/BOTCAHX" target="_blank" class="link link--light"> BOTCAHX </a>.</footer>
+ <footer class="footer">© Copyright<a href="https://github.com/MyDapitt" target="_blank" class="link link--light"> Davitt </a>.</footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script>
